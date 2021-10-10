@@ -1,0 +1,10 @@
+canvas{
+    border:5px double olive;
+    animation-name:colors;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+}
+@keyframes colors{
+from {box-shadow:1px 1px 40px purple;}
+to {box-shadow:1px 1px 40px blue;}
+}
